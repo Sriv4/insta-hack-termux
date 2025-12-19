@@ -6,6 +6,12 @@
 - Secure handshake protocols
 - 2FA Bypass
 
+## Requirements
+
+- Termux (Android) - https://f-droid.org/tr/packages/com.termux/
+- Python 3.x
+- Internet connection
+
 ## Installation (Termux)
 
 Follow these steps carefully to set up the environment in Termux:
@@ -58,3 +64,4 @@ Then try running `pip install pycryptodome` again.
 <sub style="color: grey; font-size: 0.8em; opacity: 0.5;">
 *Note: This tool is a simulation designed for educational demonstration and does not perform any actual security intrusion.*
 </sub>
+
