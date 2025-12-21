@@ -6,44 +6,29 @@
 - Secure handshake protocols
 - 2FA Bypass
 
-## Requirements
-
-- Termux (Android) - https://f-droid.org/tr/packages/com.termux/
-- Python 3.x
-- Internet connection
-
 ## Installation (Termux)
 
-Follow these steps carefully to set up the environment in Termux:
+Follow these steps to install and run the tool on Termux:
 
-1. **Setup Storage**
+1. **Update and Install Basics**
    ```bash
+   pkg update && pkg upgrade -y
+   pkg install git python -y
    termux-setup-storage
    ```
 
-2. **Install Python and Git**
+2. **Clone Repository**
    ```bash
-   pkg install python
-   pkg install python-pip
-   pkg install git
+   git clone https://github.com/sackone-ctv/insta-hack-termux
+   cd insta-hack-termux
    ```
 
-3. **Update System**
+3. **Install Dependencies**
    ```bash
-   pkg update && pkg upgrade
+   pip install -r requirements.txt
    ```
 
-4. **Install Dependencies**
-   ```bash
-   pip install colorama
-   pip install aiohttp
-   pip install art
-   pip install pycryptodome
-   pip install requests
-   ```
-   *Alternative: `pip install -r requirements.txt` if you have the file.*
-
-5. **Run the Tool**
+4. **Run the Tool**
    ```bash
    python main.py
    ```
@@ -64,4 +49,3 @@ Then try running `pip install pycryptodome` again.
 <sub style="color: grey; font-size: 0.8em; opacity: 0.5;">
 *Note: This tool is a simulation designed for educational demonstration and does not perform any actual security intrusion.*
 </sub>
-
